@@ -433,38 +433,79 @@
       <div class="container py-4">
         <h2 class="text-light text-center">Pictures galery</h2>
       </div>
-      <nav aria-label="..." class="d-flex justify-content-center pb-3">
-        <ul class="pagination pagination-sm">
-          <li class="page-item" aria-current="page">
-            <span class="page-link active">1</span>
-          </li>
-          <li class="page-item"><a class="page-link " href="#">2</a></li>
-          <li class="page-item"><a class="page-link " href="#">3</a></li>
-        </ul>
-      </nav>
-      <div class="container text-center w-100">
-        <div class="row g-5 pb-5">
-          <div class="col-sm-4">
-            <div class="p-3 border bg-light">
-              box1
-              <!-- <img src="/images/chef.jpg" alt="image of chef"> -->
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="p-3 border bg-light">
-              box2
-              <!-- <img class="w-25" src="/images/chef.jpg" alt="image of chef"> -->
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="p-3 border bg-light">
-              box3
-              <!-- <img class="w-25" src="/images/chef.jpg" alt="image of chef"> -->
-            </div>
-          </div>
-        </div>
-      </div>
 
+      <div id="gals" class="carousel slide" data-bs-ride="true">
+        
+        <nav aria-label="..." class="d-flex justify-content-center pb-3">
+          <ul class="pagination pagination-sm">
+            <li class="page-item" aria-current="page">
+              <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="0" class="active">1</button>
+            </li>
+            <li class="page-item">
+              <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="1">2</button>
+            </li>
+            <li class="page-item">
+              <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="2">3</button>
+            </li>
+          </ul>
+        </nav>
+      
+
+        <div class="container carousel-inner">
+            
+          <div class="carousel-item active">
+              <div class="row g-5 pb-5 ">
+                <div class="col-sm-6 col-md-3">
+                    <img src="/images/chef2.jpg" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/restaurant2.png" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/sushi1.png" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/restaurant.png" alt="image of chef" class="img-fluid">
+                </div>
+              </div>
+            </div>
+        
+            <div class="carousel-item">
+              <div class="row g-5 pb-5 ">
+                <div class="col-sm-6 col-md-3">
+                    <img src="/images/chef2.jpg" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/restaurant2.png" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/sushi1.png" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/restaurant.png" alt="image of chef" class="img-fluid">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row g-5 pb-5 ">
+                <div class="col-sm-6 col-md-3">
+                    <img src="/images/chef2.jpg" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/restaurant2.png" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/sushi1.png" alt="image of chef" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <img src="/images/restaurant.png" alt="image of chef" class="img-fluid">
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
 
     </section>
 
