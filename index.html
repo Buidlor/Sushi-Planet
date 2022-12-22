@@ -561,19 +561,111 @@
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">Sakura Sushi</div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">Mikado Sushi Bar</div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">Wasabi Fusion</div>
-            <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">Koi Sushi Lounge</div>
-          </div>
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>1-2-3 Kudanshita, Chiyoda-ku, Tokyo 102-0073</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 080-1111-2222</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user1@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Tuesday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Wednesday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Thursday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Friday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>4-5-6 Minato-ku, Osaka-shi, Osaka 542-0081</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 090-3333-4444</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user2@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Tuesday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Wednesday: Closed</li>
+                    <li>Thursday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Friday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>7-8-9 Shinjuku-ku, Yokohama-shi, Kanagawa 220-0011</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 070-5555-6666</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user3@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Open from 11:00 AM to 7:00 PM</li>
+                    <li>Tuesday: Closed</li>
+                    <li>Wednesday: Open from 11:00 AM to 7:00 PM</li>
+                    <li>Thursday: Closed</li>
+                    <li>Friday: Open from 11:00 AM to 7:00 PM</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>10-11-12 Setagaya-ku, Nagoya-shi, Aichi 461-0003</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 060-7777-8888</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user4@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Closed</li>
+                    <li>Tuesday: Open from 12:00 PM to 8:00 PM</li>
+                    <li>Wednesday: Closed</li>
+                    <li>Thursday: Open from 12:00 PM to 8:00 PM</li>
+                    <li>Friday: Closed</li>
+                    <li>Saturday: Open from 12:00 PM to 8:00 PM</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
             </div>
           </div>
+          
         </div>
         <div class="col-md">
-          <div class="map-area">
+          <div class="map-area mt-5">
             <iframe src="https://www.google.com/maps/d/embed?mid=1adD58jCwwXlDxMOQzqXM0BsA9BpFOo8&ehbc=2E312F" width="640"
               height="480"></iframe>
           </div>
