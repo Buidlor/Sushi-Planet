@@ -12,8 +12,8 @@ The positioning, placements and design are done with bootstrap. The goal of this
 I got through the exercise thanks to the great [documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/) and a lot of Googling.
 
 #### Branches:
-Main: Is deployed on github pages
-Dev: Branch used for the first version. the navbar links to the different sections on the page making it scroll.
-pages: Branch used for the version with a separate page for each link in the navbar
+- Main: Is deployed on github pages
+- Dev: Branch used for the first version. the navbar links to the different sections on the page making it scroll.
+- pages: Branch used for the version with a separate page for each link in the navbar
 
 --- 
