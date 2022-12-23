@@ -1,0 +1,15 @@
+{
+  "name": "restaurant-css-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Buidlor/restaurant-css-framework.git",
+  "author": "Buidlor <jefboone@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  }
+}
