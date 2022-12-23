@@ -22,9 +22,11 @@
 </head>
 
 <body>
+  <!-- <img src="images/logosushiplanet2white.png" class="img-fluid w-25" alt="logo image"> -->
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
     <div class="container">
+      <!-- <img src="images/logosushiplanet2white.png" class="img-fluid w-25 navbar-brand" alt="logo image"> -->
       <a href="#welcome" class="navbar-brand">Sushi Planet</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon text-white"></span>
@@ -60,11 +62,18 @@
 
       <div class="p-5 mb-4 bg-light text-dark rounded-3">
 
-        <div id="carouselExampleControls" class="carousel-dark slide" data-bs-ride="carousel">
+        <div id="slides" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators mb-0">
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="d-sm-flex align-items-center justify-content-between">
-                <div class="px-5">
+              <div class="d-sm-flex align-items-center justify-content-around">
+                <div class="px-2">
                   <h2 class="fw-bold">News</h2>
                   <p>A new sushi restaurant has opened in the heart of the city, attracting patrons
                     with its
@@ -76,7 +85,7 @@
                     innovative rolls,
                     nigiri, and sashimi. Diners also can enjoy a variety of other dishes, like
                     ramen, crab cakes,
-                    tempura, and katsu. The restaurant is brightly
+                    tempura, and katsu.
                   </p>
                 </div>
                 <img class="img-fluid w-25 d-none d-sm-block" src="images/chef2.jpg" alt="chef picture" />
@@ -85,7 +94,7 @@
             <div class="carousel-item">
               <div class="d-sm-flex align-items-center justify-content-between">
 
-                <div class="px-5">
+                <div class="px-2">
                   <h2 class="fw-bold">Event</h2>
                   <p>A sushi restaurant in town is hosting a special event: free sushi rolls for
                     everyone! They are offering a wide selection of traditional sushi rolls, as well
@@ -102,7 +111,7 @@
             <div class="carousel-item">
               <div class="d-sm-flex align-items-center justify-content-between">
 
-                <div class="px-5">
+                <div class="px-2">
                   <h2 class="fw-bold">Promotion</h2>
                   <p>Welcome to our sushi promotion! From now until December 20th, we invite you to
                     come and enjoy our delicious selection of sushi at special discounted prices.
@@ -121,8 +130,8 @@
   </section>
 
   <!-- menu  -->
-  <section class="p-5" id="menu">
-    <div class="container">
+  <section class="py-3" id="menu">
+    <div class="container mt-5">
       <h2 class="text-center mb4 pb-4">Dining card</h2>
 
       <!-- menu drinks -->
@@ -472,7 +481,7 @@
       <h2 class="text-light text-center">Pictures galery</h2>
     </div>
 
-    <div id="gals" class="carousel slide" data-bs-ride="false">
+    <div id="gals" class="carousel slide mx-3" data-bs-ride="false">
 
       <nav aria-label="..." class="d-flex justify-content-center pb-3">
         <ul class="pagination pagination-sm">
@@ -495,7 +504,7 @@
         <div class="carousel-item active">
           <div class="row g-5 pb-5 ">
             <div class="col-sm-6 col-md-3">
-              <img src="images/chef2.jpg" alt="image of chef" class="img-fluid">
+              <img src="images/chef2cooking.jpg" alt="image of chef" class="img-fluid">
             </div>
             <div class="col-sm-6 col-md-3">
               <img src="images/restaurant2.png" alt="image of chef" class="img-fluid">
@@ -547,8 +556,8 @@
   </section>
 
   <!-- franchise Restaurants -->
-  <section class="p-5" id="restaurants">
-    
+  <section class="py-5" id="restaurants">
+
     <div class="container">
       <div class="row g-4">
         <div class="col-md">
@@ -671,25 +680,26 @@
           </div>
 
         </div>
-        
+
         <div class="col-md">
-          
+
           <div class="mt-5 map-area">
             <iframe src="https://www.google.com/maps/d/embed?mid=1adD58jCwwXlDxMOQzqXM0BsA9BpFOo8&ehbc=2E312F"
-            width="600" height="480"></iframe>
+              width="100%" height="480"></iframe>
           </div>
         </div>
       </div>
     </div>
-    
+
   </section>
 
-  
+
+
   <!-- contact form -->
-  <section class="bg-primary" id="contact">
-  
+  <section class="bg-primary pb-5" id="contact">
+
     <div class="container text-light py-5">
-      <h2 class="text-center mb-5">Contact</h2>
+      <h2 class="text-center mb-3">Contact</h2>
 
       <form>
         <div class="row">
@@ -697,20 +707,20 @@
           <div class="container col-md">
             <div class="d-flex ">
               <div class="mb-3 me-3">
-                  <label for="inputName" class="form-label">Name</label>
-                  <input type="text" id="inputName" class="form-control" aria-describedby="passwordHelpInline"
-                    placeholder="John">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" id="inputName" class="form-control" aria-describedby="passwordHelpInline"
+                  placeholder="John">
               </div>
               <div class="mb-3">
-                  <label for="inputSurname" class="form-label">Surname</label>
-                  <input type="text" id="inputSurname" class="form-control" aria-describedby="passwordHelpInline"
-                    placeholder="Smith">
+                <label for="inputSurname" class="form-label">Surname</label>
+                <input type="text" id="inputSurname" class="form-control" aria-describedby="passwordHelpInline"
+                  placeholder="Smith">
               </div>
             </div>
             <div class="mb-3">
-                <label for="inputEmail" class="col-form-label">Email</label>
-                <input type="Email" id="inputEmail" class="form-control" aria-describedby="passwordHelpInline"
-                  placeholder="john.smith@smthing.som">
+              <label for="inputEmail" class="col-form-label">Email</label>
+              <input type="Email" id="inputEmail" class="form-control" aria-describedby="passwordHelpInline"
+                placeholder="john.smith@smthing.som">
             </div>
           </div>
 
@@ -732,10 +742,92 @@
           </div>
 
         </div>
-        <button type="submit" class="btn btn-dark btn-lg align-self-center">Submit</button>
+        <div class="text-center mt-3">
+
+          <button type="submit" class="btn btn-dark btn-lg mt-2">Submit</button>
+        </div>
 
       </form>
 
+    </div>
+
+    <!-- Managers -->
+    <div class="container">
+      <h2 class="text-center text-white pb-3">Branch Managers</h2>
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="pictures of sources"
+                class="rounded-circle mb3" />
+              <h3 class="card-tirle mb-3">Joey Shultz</h3>
+              <ul class="list-group list-group-flush pb-2">
+                <li class="list-group-item">06123456 </li>
+                <li class="list-group-item">Joe.shultz@sp.co</li>
+                <li class="list-group-item">Sakura Sushi</li>
+              </ul>
+              <a href="#"><i class="fa-brands fa-twitter text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-github text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-discord text-dark"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/69.jpg" alt="pictures of sources"
+                class="rounded-circle mb3" />
+              <h3 class="card-tirle mb-3">Bart Bloke</h3>
+              <ul class="list-group list-group-flush pb-2">
+                <li class="list-group-item">06323456 </li>
+                <li class="list-group-item">Bart.bloke@sp.co</li>
+                <li class="list-group-item">Mikado Sushi Bar</li>
+              </ul>
+              <a href="#"><i class="fa-brands fa-twitter text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-github text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-discord text-dark"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="pictures of sources"
+                class="rounded-circle mb3" />
+              <h3 class="card-tirle mb-3">Elise Smith</h3>
+              <ul class="list-group list-group-flush pb-2">
+                <li class="list-group-item">06123956 </li>
+                <li class="list-group-item">Elise.Smith@sp.co</li>
+                <li class="list-group-item">Wasabi Fusion</li>
+              </ul>
+              <a href="#"><i class="fa-brands fa-twitter text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-github text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-discord text-dark"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="pictures of sources"
+                class="rounded-circle mb3" />
+              <h3 class="card-tirle mb-3">Caro Henri</h3>
+              <ul class="list-group list-group-flush pb-2">
+                <li class="list-group-item">06183456 </li>
+                <li class="list-group-item">Caro.henri@sp.co</li>
+                <li class="list-group-item">Koi Sushi Lounge</li>
+              </ul>
+              <a href="#"><i class="fa-brands fa-twitter text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-github text-dark"></i></a>
+              <a href="#"><i class="fa-brands fa-discord text-dark"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
