@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- manual styling -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="icon" href="images/faviconSushi.png">
+  <title>Sushi Planet</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
+    <div class="container">
+      <!-- <img src="images/logosushiplanet2white.png" class="img-fluid w-25 navbar-brand" alt="logo image"> -->
+      <a href="index.html" class="navbar-brand">Sushi Planet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a href="menu.html" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="pictures.html" class="nav-link">Pictures</a>
+          </li>
+          <li class="nav-item">
+            <a href="restaurants.html" class="nav-link">Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <!-- franchise Restaurants -->
+   <section class="py-5" id="restaurants">
+
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4">Restaurant Info</h2>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sakura Sushi</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Mikado Sushi Bar</button>
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Wasabi Fusion</button>
+              <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled"
+                type="button" role="tab" aria-controls="nav-disabled" aria-selected="false">Koi Sushi Lounge</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+              tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>1-2-3 Kudanshita, Chiyoda-ku, Tokyo 102-0073</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 080-1111-2222</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user1@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Tuesday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Wednesday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Thursday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Friday: Open from 9:00 AM to 5:00 PM</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>4-5-6 Minato-ku, Osaka-shi, Osaka 542-0081</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 090-3333-4444</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user2@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Tuesday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Wednesday: Closed</li>
+                    <li>Thursday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Friday: Open from 10:00 AM to 6:00 PM</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>7-8-9 Shinjuku-ku, Yokohama-shi, Kanagawa 220-0011</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 070-5555-6666</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user3@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Open from 11:00 AM to 7:00 PM</li>
+                    <li>Tuesday: Closed</li>
+                    <li>Wednesday: Open from 11:00 AM to 7:00 PM</li>
+                    <li>Thursday: Closed</li>
+                    <li>Friday: Open from 11:00 AM to 7:00 PM</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab"
+              tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p><strong>Location: </strong>10-11-12 Setagaya-ku, Nagoya-shi, Aichi 461-0003</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Phone: </strong> 060-7777-8888</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Email: </strong> user4@example.com</p>
+                </li>
+                <li class="list-group-item">
+                  <p><strong>Shedule: </strong></p>
+                  <ul class="ms-4">
+                    <li>Monday: Closed</li>
+                    <li>Tuesday: Open from 12:00 PM to 8:00 PM</li>
+                    <li>Wednesday: Closed</li>
+                    <li>Thursday: Open from 12:00 PM to 8:00 PM</li>
+                    <li>Friday: Closed</li>
+                    <li>Saturday: Open from 12:00 PM to 8:00 PM</li>
+                    <li>Sunday: Closed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md">
+
+          <div class="mt-5 map-area">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1adD58jCwwXlDxMOQzqXM0BsA9BpFOo8&ehbc=2E312F"
+              width="100%" height="480"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
