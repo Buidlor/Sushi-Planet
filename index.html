@@ -22,9 +22,11 @@
 </head>
 
 <body>
+  <!-- <img src="images/logosushiplanet2white.png" class="img-fluid w-25" alt="logo image"> -->
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
     <div class="container">
+      <!-- <img src="images/logosushiplanet2white.png" class="img-fluid w-25 navbar-brand" alt="logo image"> -->
       <a href="#welcome" class="navbar-brand">Sushi Planet</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon text-white"></span>
@@ -61,7 +63,7 @@
       <div class="p-5 mb-4 bg-light text-dark rounded-3">
 
         <div id="slides" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
+          <div class="carousel-indicators mb-0">
             <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#slides" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -69,8 +71,8 @@
 
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="d-sm-flex align-items-center justify-content-between">
-                <div class="px-5">
+              <div class="d-sm-flex align-items-center justify-content-around">
+                <div class="px-2">
                   <h2 class="fw-bold">News</h2>
                   <p>A new sushi restaurant has opened in the heart of the city, attracting patrons
                     with its
@@ -82,7 +84,7 @@
                     innovative rolls,
                     nigiri, and sashimi. Diners also can enjoy a variety of other dishes, like
                     ramen, crab cakes,
-                    tempura, and katsu. The restaurant is brightly
+                    tempura, and katsu.
                   </p>
                 </div>
                 <img class="img-fluid w-25 d-none d-sm-block" src="images/chef2.jpg" alt="chef picture" />
@@ -91,7 +93,7 @@
             <div class="carousel-item">
               <div class="d-sm-flex align-items-center justify-content-between">
 
-                <div class="px-5">
+                <div class="px-2">
                   <h2 class="fw-bold">Event</h2>
                   <p>A sushi restaurant in town is hosting a special event: free sushi rolls for
                     everyone! They are offering a wide selection of traditional sushi rolls, as well
@@ -108,7 +110,7 @@
             <div class="carousel-item">
               <div class="d-sm-flex align-items-center justify-content-between">
 
-                <div class="px-5">
+                <div class="px-2">
                   <h2 class="fw-bold">Promotion</h2>
                   <p>Welcome to our sushi promotion! From now until December 20th, we invite you to
                     come and enjoy our delicious selection of sushi at special discounted prices.
@@ -128,7 +130,7 @@
 
   <!-- menu  -->
   <section class="p-5" id="menu">
-    <div class="container">
+    <div class="container mt-5">
       <h2 class="text-center mb4 pb-4">Dining card</h2>
 
       <!-- menu drinks -->
@@ -478,7 +480,7 @@
       <h2 class="text-light text-center">Pictures galery</h2>
     </div>
 
-    <div id="gals" class="carousel slide" data-bs-ride="false">
+    <div id="gals" class="carousel slide mx-3" data-bs-ride="false">
 
       <nav aria-label="..." class="d-flex justify-content-center pb-3">
         <ul class="pagination pagination-sm">
@@ -682,7 +684,7 @@
           
           <div class="mt-5 map-area">
             <iframe src="https://www.google.com/maps/d/embed?mid=1adD58jCwwXlDxMOQzqXM0BsA9BpFOo8&ehbc=2E312F"
-            width="600" height="480"></iframe>
+            width="100%" height="480"></iframe>
           </div>
         </div>
       </div>
@@ -738,7 +740,7 @@
           </div>
 
         </div>
-        <button type="submit" class="btn btn-dark btn-lg align-self-center">Submit</button>
+        <button type="submit" class="btn btn-dark btn-lg text-align-center">Submit</button>
 
       </form>
 
