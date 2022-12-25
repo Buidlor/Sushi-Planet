@@ -19,12 +19,14 @@
     <title>Sushi Planet</title>
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark ">
 
     <nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
         <div class="container">
-            <!-- <img src="images/logosushiplanet2white.png" class="img-fluid w-25 navbar-brand" alt="logo image"> -->
-            <a href="index.html" class="navbar-brand">Sushi Planet</a>
+        
+            <a href="index.html" class="navbar-brand">
+                <img src="images/logosushiplanet2white.png" width="200" alt="logo image" class="d-inline-block align-middle">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon text-white"></span>
             </button>
@@ -51,81 +53,84 @@
     </nav>
 
     <!-- picture galery -->
-    <section class="bg-dark pb-5" id="pictures">
-        <div class="container py-4">
-            <h2 class="text-light text-center">Pictures galery</h2>
-        </div>
+    <section class="bg-dark"   id="pictures">
+        <div class="container">
+            <div class="container py-5 "">
+                <h2 class="text-light text-center mb-md-5 py-md-3">Pictures galery</h2>
+            </div>
 
-        <div id="gals" class="carousel slide mx-3" data-bs-ride="false">
-
-            <nav aria-label="..." class="d-flex justify-content-center pb-3">
-                <ul class="pagination pagination-sm">
-                    <li class="page-item" aria-current="page">
-                        <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="0"
-                            class="active">1</button>
-                    </li>
-                    <li class="page-item">
-                        <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="1">2</button>
-                    </li>
-                    <li class="page-item">
-                        <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="2">3</button>
-                    </li>
-                </ul>
-            </nav>
+            <div id="gals" class="carousel slide mx-3" data-bs-ride="false">
 
 
-            <div class="container carousel-inner">
+                <div class="container carousel-inner">
 
-                <div class="carousel-item active">
-                    <div class="row g-5 pb-5 ">
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/chef2cooking.jpg" alt="image of chef" class="img-fluid">
+                    <div class="carousel-item active">
+                        <div class="row g-5 pb-5 ">
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/chef2cooking.jpg" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/restaurant2.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/sushi1.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/restaurant.png" alt="image of chef" class="img-fluid">
+                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/restaurant2.png" alt="image of chef" class="img-fluid">
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-5 pb-5 ">
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/chef3.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/restaurant3.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/sushi2.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images//restaurant4.png" alt="image of chef" class="img-fluid">
+                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/sushi1.png" alt="image of chef" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/restaurant.png" alt="image of chef" class="img-fluid">
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-5 pb-5 ">
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/sushi3.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/sushi4.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/restaurant2.png" alt="image of chef" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <img src="images/sushi2.png" alt="image of chef" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="carousel-item">
-                    <div class="row g-5 pb-5 ">
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/chef3.png" alt="image of chef" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/restaurant3.png" alt="image of chef" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/sushi2.png" alt="image of chef" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images//restaurant4.png" alt="image of chef" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="carousel-item">
-                    <div class="row g-5 pb-5 ">
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/sushi3.png" alt="image of chef" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/sushi4.png" alt="image of chef" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/restaurant2.png" alt="image of chef" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <img src="images/sushi2.png" alt="image of chef" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
+                <nav aria-label="..." class="d-flex justify-content-center pb-3">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item" aria-current="page">
+                            <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="0"
+                                class="active">1</button>
+                        </li>
+                        <li class="page-item">
+                            <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="1">2</button>
+                        </li>
+                        <li class="page-item">
+                            <button class="page-link" type="button" data-bs-target="#gals" data-bs-slide-to="2">3</button>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </section>
