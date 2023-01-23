@@ -3,10 +3,17 @@
 ### You can access the website **[HERE](https://buidlor.github.io/restaurant-css-framework/)**.
 
 #### Screenshots: 
-![screenshot1](/screenshot1.png)
-![screenshot2](/screenshot2.png)
-![screenshot3](/screenshot3.png)
-![screenshot4](/screenshot4.png)
+![screenshot1](/screenshot1.PNG)
+
+
+![screenshot2](/screenshot2.PNG)
+
+
+![screenshot3](/screenshot3.PNG)
+
+
+![screenshot4](/screenshot4.PNG)
+
 
 #### Website content:
 - Everything in this website is fictive. I've generated most of the content with AI, such as the addresses, the menu's, the events, etc.
