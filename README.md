@@ -1,6 +1,6 @@
 # **Restaurant-css-framework**
 ### *Bootstrap exercise: Create a beautiful website for a restaurant.*
-### You can access the website **[HERE](https://buidlor.github.io/restaurant-css-framework/)**.
+### You can access the website **[HERE](https://buidlor.github.io/Sushi-Planet/)**.
 
 #### Screenshots: 
 ![screenshot1](/screenshot1.PNG)
