@@ -1,6 +1,12 @@
 # **Restaurant-css-framework**
-## *Bootstrap exercise: Create a beautiful website for a restaurant.*
+### *Bootstrap exercise: Create a beautiful website for a restaurant.*
 ### You can access the website **[HERE](https://buidlor.github.io/restaurant-css-framework/)**.
+
+#### Screenshots: 
+![screenshot1]()
+![screenshot2]()
+![screenshot3]()
+![screenshot4]()
 
 #### Website content:
 - Everything in this website is fictive. I've generated most of the content with AI, such as the addresses, the menu's, the events, etc.
